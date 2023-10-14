@@ -7,4 +7,4 @@
  */
 require_once get_template_directory() . 'update.php';
 use MyTheme\GitHub_Theme_Updater;
-( new GitHub_Theme_Updater( plugin_basename( __FILE__ ), '1.0.0', 'https://api.github.com/repos/smileBeda/github-wp-update' ) )->init();
+( new GitHub_Theme_Updater( plugin_basename( __FILE__ ), '1.0.0', 'https://api.github.com/repos/smileBeda/github-wp-theme-update' ) )->init();
